@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(0, 0, 0);
+    color:white */
+}
+.sidebar{
+    position: absolute;
+    background-color: rgb(168, 165, 165);
+    width:200px;
+    font-family: 'Heebo', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding:45px;
+    margin-top: 80px;
+}
+.sidebar nav li{
+    font-size: 23px;
+    list-style: none;
+    padding: 10px 0px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width:88vw;
+}
+.container{
+    display:flex;
+}
+.infoContainer{
+    /* background-color: rgb(156, 12, 96); */
+    height: 55vh;
+    width: 80vw;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    /* margin-left: 200px; */
+    margin-left: 17vw;
+} 
+.hello{
+    /* font-size: 40px; */
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.name{
+    /* font-size: 40px; */
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.about{
+    /* font-size: 40px; */
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.moreabout{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.buttons{
+    margin-top: 25px;
+}
+.buttons button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    /* background-color:white; */
+    color: rgb(211, 199, 199);
+}
+.devPic img{
+    height:55vh;
+}
+.contactform{
+    padding: 0px 34px;
+    padding-top: 80px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.contactform h1{
+    text-align: center;
+    /* padding: 10px 0;*/
+}
+.contactform form div{
+    padding: 15px 0px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.contactform form div input{
+    width: 25vw;
+    border-radius: 7px;
+    margin: 6px 0px;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: rgb(121, 116, 116);
+    margin: 0px 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check-input{
+    width: 25px;
+    margin: 3px 0px;
+}
+.btn-btn-primary{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: 0px 3px;
+    cursor: pointer;
+}
+.btn-btn-primary:hover{
+    color: rgb(194, 212, 212);
+}
+h1{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px;
+}
+.blogitem{
+    margin:10px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.blogitem p{
+    color: grey;
+}
+.btn-btn-primary-sn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(20, 19, 19);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-btn-primary-sn:hover{
+    color: rgb(215, 233, 233);
+}
+.intro h2{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 20px 10px;
+}
+.intro p{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 5px 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-weight: bold;
+}
+.skill{
+    width: 150px;
+    height: 15px;
+    background-color: rgb(167, 146, 146);
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.t100{
+    width: 300px;
+}
+.t75{
+    width:225px;
+}
+.t50{
+    width: 150px;
+}
+.t25{
+    width: 75px;
+}
+.sidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left: 10px;
+}
+.ham{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 5px;
+    margin: 5px;
+}
+@media(max-width:974px) {
+    /* .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+
+    } */
+    .devPic{
+        display: none;
+    }
+}
